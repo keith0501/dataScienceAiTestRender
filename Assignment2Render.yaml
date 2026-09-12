@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: skin-clinic-campaign-api
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn Assignment2:app --host 127.0.0.1 --port 8000
