@@ -10,7 +10,7 @@ app = FastAPI(
     version="1.0.0",
 )
 
-DATA_FILE = Path("../resources/skin clinic campaign.csv")
+DATA_FILE = Path("skin clinic campaign.csv")
 
 
 def response_rate(dataframe: pd.DataFrame, column: str) -> pd.DataFrame:
